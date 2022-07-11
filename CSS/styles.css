@@ -1,0 +1,286 @@
+/* General */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    width: 1600px;
+    
+    background: #FFFFFF;
+}
+
+
+
+.list-marker {
+    list-style: none;
+}
+
+.link-line {
+    text-decoration: none;
+}
+
+
+
+/* Header */
+
+.header-style {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+/* Header & Footer*/
+/* Logo */
+
+.logo-style {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+
+.header-style .logo-style {
+    color: #000000;
+}
+
+.footer-style .logo-style {
+    color: #FFFFFF;
+}
+
+.logo-style>span {
+    color: #2196F3;
+}
+
+
+/* Header */
+/* Navigation */
+
+.menu-link {
+    color: #212121;
+}
+
+.menu-link:hover, .menu-link:focus {
+    color: #2196F3;
+}
+
+/* Header */
+/* Contacts */
+
+.contact-link {
+    color: #757575;
+}
+
+.contact-link:hover, .contact-link:focus {
+    color: #2196F3;
+}
+
+/* Footer */
+/* Address */
+
+.footer-style {
+    background: #2F303A;
+}
+
+.address-map {
+    color: #FFFFFF;
+}
+
+.address-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+}
+
+.address-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* Studio */
+/* Hero */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.order-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+
+    height: 50px;
+
+    background-color: #2196F3;
+    color: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.order-btn:hover, .order-btn:focus {
+    background-color: #188CE8;
+    color: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+
+/* Studio */
+/* Principles */
+
+.principles-head {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+
+.principles-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+
+
+/* Studio */
+/* Product */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+
+/* Studio */
+/* Employer */
+
+.employer {
+background: #F5F4FA;
+}
+
+.employer-item {
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.employer-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.employer-rank {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+
+
+/* Portfolio */
+/* Filter */
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    height: 38px;
+
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+    color: #212121;
+}
+
+.filter-btn:hover, .filter-btn:focus {
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    color: #FFFFFF;
+}
+
+
+
+/* Portfolio */
+/* Project */
+
+.project-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.project-comp {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
